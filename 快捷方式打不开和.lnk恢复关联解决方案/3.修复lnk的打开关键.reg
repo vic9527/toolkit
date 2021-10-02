@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00 
+
+[HKEY_CLASSES_ROOT\lnkfile]
+@="¿ì½Ý·½Ê½"
+"EditFlags"=dword:00000001
+"NeverShowExt"=""
+
+[HKEY_CLASSES_ROOT\lnkfile\CLSID]
+@="{00021401-0000-0000-C000-000000000046}"
+
+[HKEY_CLASSES_ROOT\lnkfile\shellex]
+
+[HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers]
+
+[HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\Offline Files]
+@="{750fdf0e-2a26-11d1-a3ea-080036587f03}"
+
+[HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\{00021401-0000-0000-C000-000000000046}]
+
+[HKEY_CLASSES_ROOT\lnkfile\shellex\DropHandler]
+@="{00021401-0000-0000-C000-000000000046}"
+
+[HKEY_CLASSES_ROOT\lnkfile\shellex\IconHandler]
+@="{00021401-0000-0000-C000-000000000046}"
+
+[HKEY_CLASSES_ROOT\lnkfile\shellex\PropertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\lnkfile\shellex\PropertySheetHandlers\ShimLayer Property Page]
+
+@="{513D916F-2A8E-4F51-AEAB-0CBC76FB1AF8}"

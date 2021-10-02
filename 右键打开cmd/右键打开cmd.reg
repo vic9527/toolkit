@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCMDHere]
+"ShowBasedOnVelocityId"=dword:00639bc8
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCMDHere\command]
+@="cmd.exe /s /k pushd \"%V\""

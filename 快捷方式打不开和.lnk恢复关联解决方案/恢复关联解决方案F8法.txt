@@ -1,0 +1,12 @@
+解决办法：
+
+1、重启—F8—带命令行的安全模式
+2、 输入: regedit     
+3、找到: 计算机 \HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\WINDOWS\currentversion\Explorer\File\.Exts\.exe,lnk（查找解决办法时有的说是lnk有的说是exe为了达到拼一把的目的我两个都试了）会发现有openwithlist 和openwithprogids 两项，如果有其他的选项将其删除。 
+5、将openwithlist 内的除默认以外的所有值都删除。 
+6、再将openwithprogids内的除默认和lnkfile（lnkfile不知道是什么东西我没找到）以外的所有值都删除。
+7、重启
+8、如果还有图标不能还原的可以在控制面板→外观和个性化→个性化→点击更改桌面图标按钮，在弹出的面板内点击 还原默认即可！（这一条我没有尝试，因为刚开机的时候确实是有很多图标没有还原，还给我造成了失败的假象，没想到几分钟后自动就还原了）
+ 
+
+也有人教我把电脑中的 Windows media center 卸载，但是当时的电脑状态是点什么都是win M C出来，而且搜索也根本找不到有关winM 的程序

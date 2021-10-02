@@ -1,0 +1,44 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\exefile]
+@="”¶”√≥Ã–Ú"
+"EditFlags"=hex:38,07,00,00
+"TileInfo"="prop:FileDescription;Company;FileVersion"
+"InfoTip"="prop:FileDescription;Company;FileVersion;Create;Size"
+
+[HKEY_CLASSES_ROOT\exefile\DefaultIcon]
+@="%1"
+
+[HKEY_CLASSES_ROOT\exefile\shell]
+
+[HKEY_CLASSES_ROOT\exefile\shell\Compress with ASPack]
+
+[HKEY_CLASSES_ROOT\exefile\shell\Compress with ASPack\Command]
+@="D:\\open\\ASPACK.EXE \"%1\""
+
+[HKEY_CLASSES_ROOT\exefile\shell\open]
+"EditFlags"=hex:00,00,00,00
+
+[HKEY_CLASSES_ROOT\exefile\shell\open\command]
+@=hex(2):22,00,25,00,31,00,22,00,20,00,25,00,2a,00,00,00
+
+[HKEY_CLASSES_ROOT\exefile\shell\runas]
+
+[HKEY_CLASSES_ROOT\exefile\shell\runas\command]
+@="\"%1\" %*"
+
+[HKEY_CLASSES_ROOT\exefile\shellex]
+
+[HKEY_CLASSES_ROOT\exefile\shellex\DropHandler]
+@="{86C86720-42A0-1069-A2E8-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\exefile\shellex\PropertySheetHandlers]
+
+[HKEY_CLASSES_ROOT\exefile\shellex\PropertySheetHandlers\PifProps]
+@="{86F19A00-42A0-1069-A2E9-08002B30309D}"
+
+[HKEY_CLASSES_ROOT\exefile\shellex\PropertySheetHandlers\ShimLayer Property Page]
+@="{513D916F-2A8E-4F51-AEAB-0CBC76FB1AF8}"
+
+[HKEY_CLASSES_ROOT\exefile\shellex\PropertySheetHandlers\{B41DB860-8EE4-11D2-9906-E49FADC173CA}]
+@=""

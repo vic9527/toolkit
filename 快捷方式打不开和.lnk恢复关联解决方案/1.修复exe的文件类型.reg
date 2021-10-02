@@ -1,0 +1,6 @@
+REGEDIT4
+[hkey_classes_root\.exe] 
+@="exefile" 
+
+[hkey_classes_root\exefile\shell\open\command] 
+@="%1" %* 
